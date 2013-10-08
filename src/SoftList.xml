@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Soft>
-	<Company>
+	<Company name="EPAM SYSTEMS">
 		<system>
 			<product price="75" size="200">HDD Scan</product>
 			<product price="80" size="150">Motherboard Tools</product>
@@ -10,17 +10,5 @@
 			<product price="100" size="1080">Microsoft Office 2010</product>
 			<product price="150" size="550">Adobe Photoshop SC9</product>
 		</editor>
-		<antivirus >
-			<product price="80" size="755">Kaspersky LAB</product>
-			<product price="40" size="380">Comodo Firewall</product>
-			<product price="20" size="70">Dr.Web CureIt</product>
-		</antivirus>
-		<programming>
-			<product price="8" size="180">Astah Community</product>
-			<product price="50" size="250">MySQL server</product>
-		</programming>
-		<recovery>
-			<product price="22" size="65">Easy Recovery Pro</product>
-		</recovery>
 	</Company>
-</soft>
+</Soft>

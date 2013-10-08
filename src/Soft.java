@@ -1,18 +1,26 @@
-import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
 @XmlRootElement
-
 public class Soft {
 
-    List<String>[] Company;
+    private String name;
 
-    int price;
-    int size;
+    public Soft() {
+    }
 
 
+    public String getName(){
+        return name;
+    }
+
+    private List<Company> company;
+
+    @XmlElement
+    public List<Company> getCompany(){
+        return company;
+    }
 
 
 
