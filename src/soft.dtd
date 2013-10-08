@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Soft>
+<!ELEMENT (Company+)>
+<!ELEMENT Company (	CompanyName
+		      , Currency
+		      , SoftSize
+		      , System
+		      , Editor
+		      , Antivirus
+		      , Programming
+		      , Recovery)
+
+<!ELEMENT CompanyName (#PCDATA)>
+<!ELEMENT Currency (#PCDATA)>
+<!ELEMENT SoftSize (#PCDATA)>
+<!ELEMENT System (Product+)>
+<!ELEMENT Editor (Product+)>
+<!ELEMENT Antivirus (Product+)>
+<!ELEMENT Programming (Product+)>
+<!ELEMENT Recovery (Product+)>
+<!ELEMENT Product (#PCDATA)>
+
+<!ATTLIST Product Price CDATA #REQUIRED>
+<!ATTLIST Product Size CDATA #REQUIRED>
