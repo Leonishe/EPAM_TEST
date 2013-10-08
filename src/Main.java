@@ -21,8 +21,11 @@ public class Main {
                 JAXBContext jaxbContext = JAXBContext.newInstance(Soft.class);
 
                 Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-                Soft customer = (Soft) jaxbUnmarshaller.unmarshal(file);
-                System.out.println(customer);
+                Soft soft = (Soft) jaxbUnmarshaller.unmarshal(file);
+
+
+
+                System.out.println(soft);
 
             } catch (JAXBException e) {
                 e.printStackTrace();

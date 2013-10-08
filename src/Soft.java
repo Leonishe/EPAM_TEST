@@ -6,8 +6,12 @@ import java.util.List;
 @XmlRootElement
 
 public class Soft {
-       @XmlElement
-       private List<String> Softlist;
+    @XmlElement
+    List<String>[] Company;
+
+    int price;
+    int size;
+
 
 
 }
