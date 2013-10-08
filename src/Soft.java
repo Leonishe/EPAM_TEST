@@ -7,15 +7,12 @@ public class Soft {
 
     private String name;
 
-    public Soft() {
-    }
-
 
     public String getName(){
         return name;
     }
 
-    private List<Company> company;
+    private List<Company> company;    //Получаем список компаний
 
     @XmlElement
     public List<Company> getCompany(){
