@@ -6,11 +6,13 @@ import java.util.List;
 @XmlRootElement
 
 public class Soft {
-    @XmlElement
+
     List<String>[] Company;
 
     int price;
     int size;
+
+
 
 
 
